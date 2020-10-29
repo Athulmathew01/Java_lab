@@ -10,7 +10,7 @@ class factorial
 		for(i=1;i<=a;i++)
 		{
 			fac*=i;
+			System.out.println("The factorial of "+i+" is "+fac);
 		}
-		System.out.println("The factorial of "+a+" is "+fac);
 	}
 }
